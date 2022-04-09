@@ -1,3 +1,35 @@
-h2 {
-  color: tomato;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  color: gray;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
+}
+
+figure {
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
 }

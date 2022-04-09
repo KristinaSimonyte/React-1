@@ -1,10 +1,21 @@
-import './App.css';
+import "./App.css";
+import ImageList from "./components/ImageList";
+import MainHeading from "./components/MainHeading";
+import MainText from "./components/MainText";
+import SubTitle from "./components/SubTitle";
+import TravelList from './components/TravelList';
 
 function App() {
   return (
-    <div>
-      <h2>App {50 * 60}</h2>
-    </div>
+    <div className='App'>
+        <div className='container'>
+        <MainHeading />
+        <SubTitle />
+        <MainText />
+        <ImageList />
+        </div>
+        <TravelList />
+      </div>
   );
 }
 
